@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-green-800 font-mono
+}
+
+TodoForm-input {
+    @apply w-full text-white text-[2em] border shadow-[inset_0_0_25px_rgba(0,0,0,0.1)] p-4 border-solid border-[#183129];
+    background: #1c382f;
+  }
+  .TodoForm-input::placeholder {
+    @apply text-[rgba(255,255,255,0.5)];
+  }
